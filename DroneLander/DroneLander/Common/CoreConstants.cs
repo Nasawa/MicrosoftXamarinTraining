@@ -23,4 +23,9 @@ namespace DroneLander.Common
 		public const string AndroidAppId = "189a8718-d7a0-4b81-abaf-05e8bd56f90c";
 		public const string iOSAppId = "";
 	}
+
+	public static class MobileServiceConstants
+	{
+		public const string AppUrl = "https://marslander.azurewebsites.net";
+	}
 }
