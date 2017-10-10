@@ -24,7 +24,7 @@ namespace DroneLander
 
 		protected override void OnStart()
 		{
-			MobileCenter.Start("android=189a8718-d7a0-4b81-abaf-05e8bd56f90c;" +
+			MobileCenter.Start($"android={Common.MobileCenterConstants.AndroidAppId};" +
 				   "uwp={Your UWP App secret here};" +
 				   "ios={Your iOS App secret here}",
 				   typeof(Analytics), typeof(Crashes));
